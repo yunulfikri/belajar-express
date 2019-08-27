@@ -3,7 +3,7 @@ var mysql = require('mysql')
 var jwt = require('jsonwebtoken');
 const app = express()
 const port = 3000
-
+//https://www.youtube.com/watch?v=2jqok-WgelI
 var connection = mysql.createConnection({
 	host:'localhost',
 	user:'admin',
