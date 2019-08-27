@@ -26,7 +26,7 @@ app.get('/', (req, res) =>{
 	})
 
 	//res.send(LastName)
-	res.send(dbhelper.test() + new Date)
+	res.send(LastName)
 
 })
 
